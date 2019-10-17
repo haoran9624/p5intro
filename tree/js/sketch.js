@@ -62,7 +62,6 @@ function setup(){
    speed[i] = random(0.5, 5);
    i = i + 3;
   }
-  
 }
 
 

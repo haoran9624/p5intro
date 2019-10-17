@@ -1,6 +1,6 @@
 var C4;
 
-/*
+
 function preload(){
   soundFormats('mp3');
   C4=loadSound('../assets/C4.mp3');
@@ -10,8 +10,16 @@ function preload(){
   G4=loadSound('../assets/G4.mp3');
   A4=loadSound('../assets/A4.mp3');
   B4=loadSound('../assets/B4.mp3');
+
+  C5=loadSound('../assets/C5.mp3');
+  D5=loadSound('../assets/D5.mp3');
+  E5=loadSound('../assets/E5.mp3');
+  F5=loadSound('../assets/F5.mp3');
+  G5=loadSound('../assets/G5.mp3');
+  A5=loadSound('../assets/A5.mp3');
+  B5=loadSound('../assets/B5.mp3');
 }
-*/
+
 
 function setup() {
   createCanvas(800, 400);
@@ -95,6 +103,7 @@ function draw() {
   if(mouseIsPressed){
     if(mouseX<450&&mouseX>400&&mouseY<300&&mouseY>100){
       fill(250,250,170);
+      C5.play();
     }
   }
   rect(400,100,50,200);
@@ -103,6 +112,7 @@ function draw() {
   if(mouseIsPressed){
     if(mouseX<500&&mouseX>450&&mouseY<300&&mouseY>100){
       fill(250,250,170);
+      D5.play();
     }
   }
   rect(450,100,50,200);
@@ -111,6 +121,7 @@ function draw() {
   if(mouseIsPressed){
     if(mouseX<550&&mouseX>500&&mouseY<300&&mouseY>100){
       fill(250,250,170);
+      E5.play();
     }
   }
   rect(500,100,50,200);
@@ -119,6 +130,7 @@ function draw() {
   if(mouseIsPressed){
     if(mouseX<600&&mouseX>550&&mouseY<300&&mouseY>100){
       fill(250,250,170);
+      F5.play();
     }
   }
   rect(550,100,50,200);
@@ -127,6 +139,7 @@ function draw() {
   if(mouseIsPressed){
     if(mouseX<650&&mouseX>600&&mouseY<300&&mouseY>100){
       fill(250,250,170);
+      G5.play();
     }
   }
   rect(600,100,50,200);
@@ -135,6 +148,7 @@ function draw() {
   if(mouseIsPressed){
     if(mouseX<700&&mouseX>650&&mouseY<300&&mouseY>100){
       fill(250,250,170);
+      A5.play();
     }
   }
   rect(650,100,50,200);
@@ -143,6 +157,7 @@ function draw() {
   if(mouseIsPressed){
     if(mouseX<750&&mouseX>700&&mouseY<300&&mouseY>100){
       fill(250,250,170);
+      B5.play();
     }
   }
   rect(700,100,50,200);
